@@ -4,7 +4,8 @@
   "description": "Simple express static file server for sharing files without the use of cloud service providers.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "mkdir -p files"
   },
   "author": "Radi Totev",
   "license": "MIT",
